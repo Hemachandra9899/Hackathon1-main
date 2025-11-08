@@ -72,7 +72,7 @@ export default function InjectDocsPage() {
         },
       };
 
-      const res = await fetch("http://localhost:3000/ingest", {
+      const res = await fetch("https://planrag-backend.onrender.com/ingest", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
