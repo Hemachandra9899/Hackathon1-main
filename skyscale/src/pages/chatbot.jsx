@@ -44,7 +44,7 @@ export default function SkyScaleCopilotPage() {
         },
       };
 
-      const res = await fetch("http://localhost:3000/ask", {
+      const res = await fetch("https://planrag-backend.onrender.com/ask", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
